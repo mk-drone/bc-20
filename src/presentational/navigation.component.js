@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.css';
-// import 'bootstrap/dist/css/bootstrap-theme.css';
 
 const Navigation = props => (
     <div>
@@ -12,7 +11,6 @@ const Navigation = props => (
                     <ul className="nav navbar-nav">
                         <li><Link to="/countries">Countries</Link></li>
                         <li><Link to="/continents">Continents</Link></li>
-                        <li><Link to="/contact">Contact</Link></li>
                     </ul>
                 </div>
             </div>
